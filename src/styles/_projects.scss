@@ -1,7 +1,11 @@
 #projects {
-    width: 90%;
-  margin: 0 auto;
+  align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
   max-width: 960px;
+  margin: 0 auto;
   @media only screen and (min-width: $cut) {
     width: 80%;
 }
