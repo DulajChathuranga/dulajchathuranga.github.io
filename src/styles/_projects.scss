@@ -10,8 +10,24 @@
   }
 }
 
-.user-projects {
+.user {
   text-align: center;
+  font-size: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  p {
+    font-size: 16px;
+  }
+  @media only screen and (min-width: $cut) {
+    flex-wrap: nowrap;
+    font-size: 75px;
+  }
+}
+
+.user-projects {
+  align: center;
   margin: 20px auto;
   img {
     max-width: 100%;
