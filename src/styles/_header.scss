@@ -25,13 +25,13 @@
   transform: translate(-50%, -50%);
   .site-title {
     font-size: 50px;
-    font-weight: 30;
     display: block;
     line-height: 1;
     color: #FFF;
     @media only screen and (min-width:$cut){
       margin: 0;
       font-size: 100px;
+      font-weight: 300;
     }
   }
   .site-description {
