@@ -18,3 +18,7 @@ google-analytics:
   id: ""
 
 exclude: ['package.json', 'src' , 'node_modules']
+
+# The list of pages to show in the header of blog
+
+pages_list:       {'Archive':'/blog/archive'}
