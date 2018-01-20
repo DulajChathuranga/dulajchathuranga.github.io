@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Acknowledgement
+title: Credits
 order: 3
 ---
