@@ -17,7 +17,7 @@ gplus_username:  lorem_ipsum
 google-analytics:
   id: ""
 
-exclude: ['package.json', 'src' , 'node_modules' acknowledgement.md, tags.md]
+exclude: ['package.json', 'src' , 'node_modules']
 
 # The list of pages to show in the header of blog
 
