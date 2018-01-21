@@ -12,6 +12,7 @@ email: dulaj.chathuranga@outlook.com
 twitter_username: DulajChathu
 github_username:  DulajChathuranga
 gplus_username:  lorem_ipsum
+paginate_path: "blog/page/:num/"
 
 # Google-analytics
 google-analytics:
