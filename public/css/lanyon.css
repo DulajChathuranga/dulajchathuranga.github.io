@@ -626,6 +626,6 @@ a.pagination-item:hover {
 }
 
 .tag:hover::after {
-   border-left-color: #505050;
+   border-left-color: #fff;
 }
 /* [END] Tags Styling */
