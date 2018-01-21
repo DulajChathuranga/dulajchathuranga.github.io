@@ -583,7 +583,7 @@ a.pagination-item:hover {
 
 .tag {
   font: 14px/1.5 'PT Sans', serif;
-  background: #555555;
+  background: #313131;
   border-radius: 3px 0 0 3px;
   color: #999;
   display: inline-block;
@@ -620,12 +620,12 @@ a.pagination-item:hover {
 }
 
 .tag:hover {
-  background-color: #202020;
+  background-color: #505050;
 	text-decoration: none !important;
   color: white !important;
 }
 
 .tag:hover::after {
-   border-left-color: #202020;
+   border-left-color: #505050;
 }
 /* [END] Tags Styling */
