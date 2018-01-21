@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What's Jekyll?
-tags:[Drafts]
+tags: [Drafts]
 comments: true
 ---
 
