@@ -584,7 +584,6 @@ a.pagination-item:hover {
 .tag {
   font: 14px/1.5 'PT Sans', serif;
   background: #313131;
-  border-left-color: #313131;
   border-radius: 3px 0 0 3px;
   color: #999;
   display: inline-block;
@@ -607,6 +606,7 @@ a.pagination-item:hover {
   position: absolute;
   width: 6px;
   top: 10px;
+  border-left-color: #313131;
 }
 
 .tag::after {
