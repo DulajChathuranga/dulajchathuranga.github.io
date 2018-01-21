@@ -620,12 +620,12 @@ a.pagination-item:hover {
 }
 
 .tag:hover {
-  background-color: #aa759f;
+  background-color: #555555;
 	text-decoration: none !important;
   color: white !important;
 }
 
 .tag:hover::after {
-   border-left-color: #aa759f;
+   border-left-color: #555555;
 }
 /* [END] Tags Styling */
