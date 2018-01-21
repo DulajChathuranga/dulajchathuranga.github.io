@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducing Lanyon
-tags: [Drafts]
+tags: [Drafts, Lanyon]
 comments: true
 ---
 
