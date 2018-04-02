@@ -1,9 +1,10 @@
 ---
 layout: post
-title: An Algorithm : View of an amateur
-tags: [Algorithms, Computer Science Intro]
+title: Example content
+tags: [Drafts, Example]
 comments: true
 ---
+
 
 
 There are various views on the definition of an “algorithm”. Going through some most common conception I concluded a definition to clarify what is an algorithm (still open to adjustments).
