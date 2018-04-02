@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An Algorithm - View of an Amateur
-tags: [Algorithms, Computer Science Intro]
+tags: [Algorithms, Computer Science Basics]
 comments: true
 ---
 
