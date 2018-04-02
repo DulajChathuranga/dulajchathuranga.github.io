@@ -25,6 +25,8 @@ fread() reads from where it left off last time and returns the number of element
 
 This is a part of a program use fread().
 
+{% highlight ruby %}
+
 // Open input file
 FILE *inptr = fopen (infile, "r");
 //Check for a valid file
@@ -51,6 +53,8 @@ fclose(inptr);
  
 return 0;
 fwrite()
+
+{% endhighlight %}
 
 Function fwrite() write data to the given file pointed by 4th parameter, from data pointed by 1st parameter.
 
