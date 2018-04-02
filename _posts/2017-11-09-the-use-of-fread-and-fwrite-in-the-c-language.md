@@ -12,7 +12,10 @@ fread()
 
 Function fread() reads data from the given data stream(4th parameter), to an array, pointed in to by a pointer(1st parameter).
 
+{% highlight ruby %}
 fread (ptr, size, n, inptr)
+{% endhighlight %}
+
 ptr - pointer to a block of memory (store what reads from inptr)
 
 size - size of an element
@@ -58,7 +61,10 @@ fwrite()
 
 Function fwrite() write data to the given file pointed by 4th parameter, from data pointed by 1st parameter.
 
+{% highlight ruby %}
 fwrite (ptr, size, n, outptr)
+{% endhighlight %}
+
 ptr - pointer to a block of memory (contains data that write to outptr)
 
 size - size of an element
