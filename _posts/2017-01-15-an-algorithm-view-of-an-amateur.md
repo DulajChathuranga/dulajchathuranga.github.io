@@ -5,6 +5,7 @@ tags: [Algorithms, Computer Science Intro]
 comments: true
 ---
 
+
 There are various views on the definition of an “algorithm”. Going through some most common conception I concluded a definition to clarify what is an algorithm (still open to adjustments).
 
 “Concise and precise, finite number of steps that can perform by a Turing machine effectively”
