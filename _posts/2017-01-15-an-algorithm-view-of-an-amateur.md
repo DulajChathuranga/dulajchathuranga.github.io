@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An Algorithm: View of an Amateur
+title: An Algorithm - View of an Amateur
 tags: [Drafts, Example]
 comments: true
 ---
