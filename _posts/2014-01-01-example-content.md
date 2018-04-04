@@ -3,6 +3,7 @@ layout: post
 title: Example content
 tags: [Drafts, Example]
 comments: true
+published: false
 ---
 
 
