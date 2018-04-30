@@ -6,12 +6,16 @@
   <div class="user">
     <div class="tech">
       <p>Please, feel free to leave me a message.</p>
-      <form method="POST" action="https://formspree.io/dulajchathu@yahoo.com">
+      <form id="formaction" method="POST">
         <p><input type="email" name="_replyto" placeholder="Your email"></p>
         <p><input type="text" name="name" placeholder="Your Name"></p>
         <p><textarea name="message" placeholder="Your message"></textarea></p>
         <p><button type="submit">Send</button></p>
       </form>
+      <script>
+        var contactform =  document.getElementById('formaction');
+        contactform.setAttribute('action', '//formspree.io/' + 'dulajchathu' + '@' + 'yahoo' + '.' + 'com');
+      </script>
     </div>  
   </div>
 </div>
