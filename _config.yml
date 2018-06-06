@@ -1,13 +1,13 @@
 # Site settings
-title: Dulaj Chathuranga | Artificial Intelligence
-description: A Blog about Artificial Intelligence by Dulaj Chathuranga
+title: Dulaj Chathuranga | dulajchathuranga.com
+description: A Blog about Computer Science and Programming by Dulaj Chathuranga
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 url: https://dulajchathuranga.com
 
 # User settings
 username: Dulaj Chathuranga
 user_description: I am an Artificial Intelligence and Machine Learining Enthusiast based in Colombo, Sri Lanka.
-user_title: Artificial Intelligence Enthusiast
+user_title: Software Engineer
 email: dulaj.chathuranga@outlook.com
 twitter_username: DulajChathu
 github_username:  DulajChathuranga
