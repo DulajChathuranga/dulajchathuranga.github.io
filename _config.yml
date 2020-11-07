@@ -1,14 +1,14 @@
 # Site settings
 title: Dulaj Chathuranga | dulajchathuranga.com
-description: A Blog about Computer Science and Programming by Dulaj Chathuranga
+description: A Blog about Web Development and Programming by Dulaj Chathuranga
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 url: https://dulajchathuranga.com
 
 # User settings
 username: Dulaj Chathuranga
-user_description: I am an Internet Entrepreneur interested in Artificial Intelligence and Machine Learining based in Colombo, Sri Lanka.
-user_title: Internet Entrepreneur
-email: dulaj.chathuranga@outlook.com
+user_description: I am a Web Developer interested in new Web Development Technologies based in Colombo, Sri Lanka.
+user_title: Web Developer
+email: dulajchathuranga.lk@gmail.com
 twitter_username: DulajChathu
 github_username:  DulajChathuranga
 gplus_username:  lorem_ipsum
