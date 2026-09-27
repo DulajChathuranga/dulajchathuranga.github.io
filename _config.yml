@@ -1,6 +1,6 @@
 # Site settings
 title: Dulaj Chathuranga | dulaj.lk
-description: A Blog about Web Development and Programming by Dulaj Chathuranga
+description: Official website of Dulaj Chathuranga (dulaj.lk). Backend software engineer specializing in API integration, Python, FastAPI, and PostgreSQL based in Sri Lanka.
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 url: https://dulaj.lk
 
@@ -24,3 +24,8 @@ exclude: ['package.json', 'src' , 'node_modules']
 # The list of pages to show in the header of blog
 
 pages_list:       {'Archive':'/blog/archive'}
+
+# Enable Jekyll SEO Tag plugin (native to GitHub Pages)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
