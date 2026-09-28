@@ -1,9 +1,10 @@
 <style>
   
-  #formaction textarea
+  #contactForm textarea,
+  #contactForm input[type="text"],
+  #contactForm input[type="email"]
   {
     width: 90%;
-    height: 7em;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -11,34 +12,32 @@
     border-radius: 4px;
     box-sizing: border-box;
   }
-  
-  #formaction input
+
+  #contactForm textarea
   {
-    width: 90%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    height: 7em;
   }
   
   .form-frame
   {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 5px;
+    padding: 15px;
   }
   
-  button
+  #submitBtn
   {
     cursor: pointer;
     border: 1px solid #1a222c;
     border-radius: 4px;
     color: #1a222c;
+    background-color: transparent;
+    padding: 10px 24px;
+    font-size: 16px;
+    transition: all 0.3s ease;
   }
   
-  button:hover
+  #submitBtn:hover
   {
     background-color: #54516a;
     color: #fff;
@@ -50,7 +49,7 @@
     font-size: 20px;
     color: #1a222c;
     padding: 0em 0.25em 0em 0.25em;
-    margin: bottom 1em;
+    margin-bottom: 1em;
     border: 1px solid #1a222c;
     border-radius: 4px;
   }
