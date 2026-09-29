@@ -23,7 +23,7 @@ exclude: ['package.json', 'src' , 'node_modules']
 
 # The list of pages to show in the header of blog
 
-pages_list:       {'Archive':'/blog/archive'}
+pages_list: {'Writing':'/blog/writing', 'Archive':'/blog/archive'}
 
 # Enable Jekyll SEO Tag plugin (native to GitHub Pages)
 plugins:
