@@ -10,7 +10,7 @@ user_description: I'm a self-taught developer focused on API integration and bac
 user_title: API Integration Engineer
 email: dulajchathuranga.lk@gmail.com
 twitter_username: DulajChathu
-github_username:  DulajChathuranga
+github_username: DulajChathuranga
 gplus_username:  lorem_ipsum
 paginate:            5
 paginate_path: "blog/page/:num/"
