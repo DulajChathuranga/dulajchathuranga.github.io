@@ -123,6 +123,63 @@
     color: #fff;
     border-color: #54516a;
   }
+
+  <! New Form Style>
+
+  /* 1. Center the form frame container and its text contents */
+  .form-frame {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* 2. Force input boxes and textareas to block & auto-center */
+  #contactForm textarea,
+  #contactForm input[type="text"],
+  #contactForm input[type="email"] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px auto; /* 'auto' centers block elements horizontally */
+    display: block;   /* 'block' allows margin auto to work */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 14px;
+  }
+
+  /* 3. Center the Cloudflare Turnstile anti-spam widget */
+  .cf-turnstile {
+    display: flex;
+    justify-content: center;
+    margin: 12px 0;
+  }
+
+  /* 4. Center the submit button */
+  #submitBtn {
+    cursor: pointer;
+    border: 1px solid #1a222c;
+    border-radius: 4px;
+    color: #1a222c;
+    background-color: transparent;
+    padding: 10px 24px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    margin: 10px auto;
+  }
+
+  /* 5. Flexible "Go to Top" Arrow Container */
+  .go-to-top-wrapper {
+    display: flex;
+    justify-content: flex-end; /* Aligns to right edge of content container, NOT far screen */
+    max-width: 90%;            /* Keeps it nicely aligned with form width */
+    margin: 15px auto 0 auto;
+  }
+  
 </style>
 
 <div class="user-details">
@@ -237,10 +294,15 @@
   </div>
 </div>
 
-<div class="user-projects">
+<div class="user-projects" style="text-align: center; margin: 20px 0;">
   <a class="project-link" href="/blog/">Read Blog</a> 
 </div>
-
+<!--
 <div align="right">
+  <a class="up" href="#header" data-scroll title="Go to Top"><i class="icon fa fa-chevron-up"></i></a>
+</div>
+-->
+
+<div class="go-to-top-wrapper">
   <a class="up" href="#header" data-scroll title="Go to Top"><i class="icon fa fa-chevron-up"></i></a>
 </div>
