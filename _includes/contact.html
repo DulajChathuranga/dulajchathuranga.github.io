@@ -126,24 +126,25 @@
 
   <! New Form Style>
 
-  /* 1. Center the form frame container and its text contents */
+/* 1. Center the form frame container and its text contents */
   .form-frame {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
     box-sizing: border-box;
-    text-align: center;
-    margin: 0 auto;
+    text-align: center !important;
+    margin: 0 auto !important;
   }
 
   /* 2. Force input boxes and textareas to block & auto-center */
   #contactForm textarea,
   #contactForm input[type="text"],
   #contactForm input[type="email"] {
-    width: 90%;
+    width: 90% !important;
     padding: 12px 20px;
-    margin: 8px auto; /* 'auto' centers block elements horizontally */
-    display: block;   /* 'block' allows margin auto to work */
+    margin: 8px auto !important; /* 'auto' centers block elements horizontally */
+    display: block !important;   /* 'block' allows margin auto to work */
+    float: none !important;      /* Prevents theme float rules from forcing left alignment */
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
@@ -153,9 +154,9 @@
 
   /* 3. Center the Cloudflare Turnstile anti-spam widget */
   .cf-turnstile {
-    display: flex;
-    justify-content: center;
-    margin: 12px 0;
+    display: flex !important;
+    justify-content: center !important;
+    margin: 12px auto !important;
   }
 
   /* 4. Center the submit button */
@@ -168,16 +169,17 @@
     padding: 10px 24px;
     font-size: 15px;
     transition: all 0.3s ease;
-    display: inline-block;
-    margin: 10px auto;
+    display: inline-block !important;
+    margin: 10px auto !important;
+    float: none !important;
   }
 
   /* 5. Flexible "Go to Top" Arrow Container */
   .go-to-top-wrapper {
-    display: flex;
-    justify-content: flex-end; /* Aligns to right edge of content container, NOT far screen */
-    max-width: 90%;            /* Keeps it nicely aligned with form width */
-    margin: 15px auto 0 auto;
+    display: flex !important;
+    justify-content: flex-end !important; /* Aligns to right edge of content container */
+    max-width: 90% !important;            /* Keeps it nicely aligned with form width */
+    margin: 15px auto 0 auto !important;
   }
   
 </style>
